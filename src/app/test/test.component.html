@@ -1,0 +1,22 @@
+<pre>
+    Normal:     {{myname | titlecase}} 
+    Upper Case: {{myname | uppercase}} 
+    Lower Case: {{myname | lowercase}} 
+
+    Slice:      {{myname | slice:5:10}}
+    Decimal:    {{mynumber | number:'2.2-5'}}                         
+    Percent:    {{mynumber2 | percent}}                       
+
+    Currencey:  {{myprice | currency:'EUR'}} 
+                {{myprice | currency:'USD':true}} 
+                {{myprice | currency:'USD':false}}                           
+
+    Date&Time:  {{mydate | date }} 
+                {{mydate | date:'fullDate'}} 
+                {{mydate | date:'shortDate'}} 
+                {{mydate | date:'dd/MM/yyyy hh:mm:ss'}} 
+                {{mydate | date:'mediumTime'}} 
+                {{mydate2 | date}}
+
+    JSON:       {{person|json}}              
+</pre>`

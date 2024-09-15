@@ -1,0 +1,12 @@
+.initial-bg{
+  color:red;
+  background-color: gold;
+}
+.hover-bg{
+    color:blue;
+    background-color: lightblue;
+}
+.leave-bg{
+    color:green;
+    background-color: lightgreen;
+}

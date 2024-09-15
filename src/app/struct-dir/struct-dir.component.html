@@ -1,0 +1,12 @@
+<!-- <div>First Product</div>
+<div *ngIf="isProductAvailable">Second Product</div>
+<div>Third Product</div>
+
+<ul *ngFor="let name of names">
+    <li>{{name}}</li>  
+</ul> -->
+
+<ul *ngFor="let product of products | filterprice :10000">
+    <li>{{product.productId}}-{{product.productName}}-{{product.productPrice}}</li>
+</ul>
+
